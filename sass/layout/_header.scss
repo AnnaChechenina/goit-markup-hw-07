@@ -1,22 +1,22 @@
-.page-head {
+.page-header {
     padding-top: 24px;
     padding-bottom: 25px;
     height: 80px;
     border-bottom: 1px solid #ececec;
 }
 
-.page-nav {
+.page-header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.page-inform {
+.page-nav {
     display: flex;
     align-items: center;
 }
 
-.page-web {
+.logo {
     color: var(--secondary-black-color);
     font-family: Raleway;
     font-weight: 700;
@@ -26,16 +26,16 @@
     margin-right: 93px;
 }
 
-.page-logo {
+.logo__img {
     color: var(--accent-color);
 }
 
-.page-site-nav {
+.site-nav {
     display: flex;
     align-items: center;
 }
 
-.page-link-name.current {
+.site__link-name_current {
     color: var(--accent-color);
     font-weight: 500;
     line-height: 1.14;
@@ -43,7 +43,7 @@
     position: relative;
 }
 
-.page-link-name.current::after {
+.site__link-name_current::after {
     content: "";
     position: absolute;
     display: block;
@@ -54,7 +54,7 @@
     margin-top: 28px;
 }
 
-.page-link-name {
+.site__link-name {
     color: var(--title-text-color);
     font-weight: 500;
     line-height: 1.14;
@@ -65,22 +65,23 @@
         &:focus {
             color: var(--accent-color);
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
+        };
         
-    &:not(:last-child) {
-    margin-right: 50px;
-}
+    
         
 }
-
-
-
-.page-inform-mail {
+.site__link:not(:last-child) {
     margin-right: 50px;
 }
 
-.mail,
-.tel {
+
+
+.page__inform {
+    margin-right: 50px;
+}
+
+.page__mail,
+.page__tel {
     display: flex;
     align-items: center;
     color: var(--primary-text-color);
@@ -100,7 +101,7 @@
 
 
 
-.envelope {
+.page__envelope {
     margin-right: 10px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -111,7 +112,7 @@
         }
 }
 
-.telephone {
+.page__telephone {
     margin-right: 10px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
    

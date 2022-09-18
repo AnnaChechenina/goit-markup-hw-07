@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 
-.characteristic-title {
+.characteristic__title {
     color: var(--title-text-color);
     font-weight: 700;
     line-height: 1.14;
@@ -16,13 +16,13 @@
     margin-bottom: 10px;
 }
 
-.characteristic-text {
+.characteristic__text {
     color: var(--primary-text-color);
     line-height: 1.71;
     width: 270px;
 }
 
-.characteristic-link {
+.characteristic__link {
     display: flex;
     justify-content: center;
     background: #f5f4fa;
@@ -33,5 +33,5 @@
     margin-bottom: 30px;
 }
 
-.characteristic-icon {
+.characteristic__icon {
     fill: var(--title-text-color);}

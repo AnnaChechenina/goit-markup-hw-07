@@ -4,7 +4,7 @@
     padding-bottom: 94px;
 }
 
-.clients {
+.clients-base {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -14,13 +14,13 @@
     margin-bottom: 50px;
 }
 
-.clients-base {
+.clients {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.clients-link {
+.clients__link {
     text-align: center;
     width: 170px;
     height: 92px;

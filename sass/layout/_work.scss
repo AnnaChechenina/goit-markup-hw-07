@@ -12,16 +12,16 @@
     margin-bottom: 50px;
 }
 
-.work-pic {
+.work {
     display: flex;
     justify-content: space-between;
 }
 
-.work-image {
+.work__image {
     position: relative;
 }
 
-.work-labels {
+.work__labels {
     position: absolute;
     left: 0;
     top: 224px;
