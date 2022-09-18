@@ -1,10 +1,10 @@
-.all-clients {
+.clients {
     background-color: var(--primary-white-color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.clients-base {
+.clients__base {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -14,7 +14,7 @@
     margin-bottom: 50px;
 }
 
-.clients {
+.clients__name {
     display: flex;
     justify-content: center;
     gap: 30px;

@@ -2,7 +2,7 @@
     padding-bottom: 94px;
 }
 
-.work-sens {
+.work__sens {
     color: var(--title-text-color);
     text-align: center;
     font-weight: 700;
@@ -12,12 +12,12 @@
     margin-bottom: 50px;
 }
 
-.work {
+.work__img {
     display: flex;
     justify-content: space-between;
 }
 
-.work__image {
+.work__picture {
     position: relative;
 }
 

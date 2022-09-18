@@ -4,7 +4,15 @@
 @import './base/common';
 @import './base/container';
 
+@import './components/button-nav-portfolio';
+@import './components/portfolio-overlay';
 
 @import './layout/portfolio';
+@import './layout/box-img-portfolio';
 @import './layout/header';
+@import './layout/logo';
+@import './layout/navigation';
+@import './layout/page-information';
 @import './layout/footer';
+@import './layout/box-footer';
+@import './layout/letter';
